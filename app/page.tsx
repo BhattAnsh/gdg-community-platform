@@ -113,7 +113,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
         <Gallery />
         <Team/>
         <FAQ/>
-        <section className="py-20 md:py-32 bg-[#e8f0fe]">
+        <section className="py-20 md:py-32 bg-[#E6F4EA]">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div ref={footerLottieRef} className="mb-8 md:mb-0"></div>
