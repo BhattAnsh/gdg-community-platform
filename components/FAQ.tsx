@@ -5,7 +5,7 @@ function FAQ() {
   return (
     <section id="faq" className="py-20 md:py-32 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#484848]"><u>Frequently Asked Questions 🤔</u></h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#484848]">FAQ</h2>
             <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto">
               {[1, 2, 3, 4].map((i) => (
                 <AccordionItem key={i} value={`item-${i}`} className="border-b border-gray-200">
