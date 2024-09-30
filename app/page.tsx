@@ -55,7 +55,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
       <header className="sticky top-0 z-50 bg-white border-b border-[#dadce0]">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link className="text-2xl font-medium text-[#202124]" href="#">
-            College Community
+            <Image src={"/GDGLogo.png"} alt="logo" width={200} height={100}></Image>
           </Link>
           <nav className="hidden md:flex space-x-8">
             {["Events", "Gallery", "Team", "FAQ"].map((item) => (
