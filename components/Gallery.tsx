@@ -3,13 +3,13 @@ import Image from "next/image"; // Import Image from 'next/image'
 
 function Gallery() {
   return (
-    <section id="gallery" className="py-20 md:py-32 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="gallery" className="py-20 md:py-32 bg-white flex items-center justify-center ">
+      <div className="container mx-auto px-4 flex flex-col items-center justify-center">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#ea4335]">
           Community Gallery
         </h2>
-        <div className="grid grid-cols-4 gap-4 h-[600px]">
-          <div className="col-span-2 bg-[#8ab4f8] rounded-lg overflow-hidden">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 h-auto w-full">
+          <div className="col-span-1 sm:col-span-2 bg-[#8ab4f8] rounded-lg overflow-hidden">
             <Image
               src="/placeholder.svg?height=300&width=600&text=Gallery+Image+1"
               alt="Gallery image 1"
@@ -45,7 +45,7 @@ function Gallery() {
               className="object-cover w-full h-full"
             />
           </div>
-          <div className="col-span-2 bg-[#8ab4f8] rounded-lg overflow-hidden">
+          <div className="col-span-1 sm:col-span-2 bg-[#8ab4f8] rounded-lg overflow-hidden">
             <Image
               src="/placeholder.svg?height=300&width=600&text=Gallery+Image+5"
               alt="Gallery image 5"
