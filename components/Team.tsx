@@ -6,51 +6,75 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const teamMembers = [
   { 
-    name: "Sarah Johnson", 
-    position: "Community Lead", 
-    description: "Passionate about building inclusive tech communities and fostering innovation.",
+    name: "Kartikey", 
+    position: "Organiser", 
+    description: "Ensuring smooth coordination and success of all club activities",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sarah-johnson-RWkZkj8NXDtpL0Kd9X3fhGhrOWQIbA.jpg"
   },
   { 
-    name: "Michael Chen", 
-    position: "Technical Coordinator", 
-    description: "Full-stack developer with a knack for solving complex problems and mentoring peers.",
+    name: "Vivek Mishra", 
+    position: "Coordinator", 
+    description: "Guiding and Supporting the team with academic insights",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/michael-chen-0ISoMpzrO5Wd9Ue6Zy9Ij5Iy1Hs9Hy.jpg"
   },
   { 
-    name: "Emily Rodriguez", 
-    position: "Event Organizer", 
-    description: "Creative mind behind our engaging workshops and networking events.",
+    name: "Aarushi", 
+    position: "Management Lead", 
+    description: "Driving efficient event planning and execution",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/emily-rodriguez-Wd9Ue6Zy9Ij5Iy1Hs9HyRWkZkj8NX.jpg"
   },
   { 
-    name: "David Kim", 
-    position: "AI Research Lead", 
-    description: "Exploring the frontiers of AI and machine learning to drive innovation.",
+    name: "Moksha Kohli", 
+    position: "Management Co-Lead", 
+    description: " I assist in organizing events and community outreach.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/david-kim-Dtpj5Iy1Hs9HyRWkZkj8NXL0Kd9X3f.jpg"
   },
   { 
-    name: "Aisha Patel", 
-    position: "Outreach Coordinator", 
-    description: "Bridging the gap between our community and industry partners.",
+    name: "Poorvi Parshar", 
+    position: "Management Co-Lead", 
+    description: " ensure seamless management and team collaboration.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aisha-patel-hGhrOWQIbA0ISoMpzrO5Wd9Ue6Zy9I.jpg"
   },
   { 
-    name: "Carlos Mendoza", 
-    position: "Web Development Lead", 
-    description: "Crafting beautiful and functional web experiences for our community.",
+    name: "Sudipta Sarkar", 
+    position: "AI-ML Lead", 
+    description: "Leading our community’s AI/ML initiatives with innovative projects.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/carlos-mendoza-j5Iy1Hs9HyRWkZkj8NXL0Kd9X3fhG.jpg"
   },
   { 
-    name: "Lila Wong", 
-    position: "UX/UI Designer", 
-    description: "Creating intuitive and visually appealing designs for our projects.",
+    name: "Nishchay Chaurasia", 
+    position: "AI/ML Co-Lead", 
+    description: "I support AI/ML development and knowledge-sharing within the team.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lila-wong-hrOWQIbA0ISoMpzrO5Wd9Ue6Zy9Ij5.jpg"
   },
   { 
-    name: "Alex Novak", 
-    position: "Cybersecurity Specialist", 
-    description: "Ensuring the safety and integrity of our digital infrastructure.",
+    name: "Shreyanshi Singhal", 
+    position: "Web Lead", 
+    description: "As the Web Lead, I spearhead web development efforts to deliver impactful solutions.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aisha-patel-hGhrOWQIbA0ISoMpzrO5Wd9Ue6Zy9I.jpg"
+  },
+  { 
+    name: "Ansh Bhatt", 
+    position: "Web Co-Lead", 
+    description: "I assist in crafting efficient and responsive web projects.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/carlos-mendoza-j5Iy1Hs9HyRWkZkj8NXL0Kd9X3fhG.jpg"
+  },
+  { 
+    name: "Swati Sharma", 
+    position: "Android Lead", 
+    description: "I drive mobile app development and engage the community in Android initiatives.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alex-novak-Iy1Hs9HyRWkZkj8NXL0Kd9X3fhGhrO.jpg"
+  },
+  { 
+    name: "Abhinav Jain", 
+    position: "Graphic Design Lead", 
+    description: "Creating visually appealing designs for events and promotions.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lila-wong-hrOWQIbA0ISoMpzrO5Wd9Ue6Zy9Ij5.jpg"
+  },
+  { 
+    name: "Kanika Sharma", 
+    position: "Graphic Design Co-Lead", 
+    description: "I support in designing captivating visual content for the club.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alex-novak-Iy1Hs9HyRWkZkj8NXL0Kd9X3fhGhrO.jpg"
   },
 ]
