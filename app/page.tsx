@@ -157,7 +157,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
                     Welcome to{" "}
                     <span className="text-[#1a73e8]">GDG On Campus!</span>
                   </h1>
-                  <p className="text-xl md:text-l text-[#5f6368] mb-8">
+                  <p className="text-xl relative z-10 md:text-l text-[#5f6368] mb-8">
                   Step into a world where innovation meets collaboration. 
                   Whether you're here to learn, lead, or create, our vibrant community 
                   is here to help you thrive. Participate in our technical events, and you 
