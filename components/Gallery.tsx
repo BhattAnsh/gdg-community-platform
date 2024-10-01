@@ -20,7 +20,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#81c995] rounded-lg overflow-hidden">
             <Image
-              src="/devfest_sumitjha.jpg"
+              src="/less.jpg"
               alt="Gallery image 2"
               width={300}
               height={300}
@@ -29,7 +29,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#fde293] rounded-lg overflow-hidden">
             <Image
-              src="/more.jpg"
+              src="/devfest_sumitjha.jpg"
               alt="Gallery image 3"
               width={300}
               height={300}
@@ -56,7 +56,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#81c995] rounded-lg overflow-hidden">
             <Image
-              src="/less.jpg"
+              src="/more.jpg"
               alt="Gallery image 6"
               width={300}
               height={300}

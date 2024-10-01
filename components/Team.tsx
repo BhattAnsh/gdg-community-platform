@@ -32,7 +32,7 @@ const teamMembers = [
   { 
     name: "Poorvi Parshar", 
     position: "Management Co-Lead", 
-    description: " ensure seamless management and team collaboration.",
+    description: "I ensure seamless management and team collaboration.",
     image: "/poorvi.jpg"
   },
   { 
