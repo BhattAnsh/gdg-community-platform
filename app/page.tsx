@@ -159,7 +159,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
                   </h1>
                   <p className="text-xl relative z-10 md:text-l text-[#5f6368] mb-8">
                   Step into a world where innovation meets collaboration. 
-                  Whether you're here to learn, lead, or create, our vibrant community 
+                  Whether youre here to learn, lead, or create, our vibrant community 
                   is here to help you thrive. Participate in our technical events, and you 
                   might even grab some cool goodies—we believe every achievement deserves a 
                   little celebration. Your journey starts here, join us today!
