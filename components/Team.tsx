@@ -5,14 +5,54 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 
 const teamMembers = [
-  { name: "Team Member 1", position: "Position 1" },
-  { name: "Team Member 2", position: "Position 2" },
-  { name: "Team Member 3", position: "Position 3" },
-  { name: "Team Member 4", position: "Position 4" },
-  { name: "Team Member 5", position: "Position 5" },
-  { name: "Team Member 6", position: "Position 6" },
-  { name: "Team Member 7", position: "Position 7" },
-  { name: "Team Member 8", position: "Position 8" },
+  { 
+    name: "Sarah Johnson", 
+    position: "Community Lead", 
+    description: "Passionate about building inclusive tech communities and fostering innovation.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sarah-johnson-RWkZkj8NXDtpL0Kd9X3fhGhrOWQIbA.jpg"
+  },
+  { 
+    name: "Michael Chen", 
+    position: "Technical Coordinator", 
+    description: "Full-stack developer with a knack for solving complex problems and mentoring peers.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/michael-chen-0ISoMpzrO5Wd9Ue6Zy9Ij5Iy1Hs9Hy.jpg"
+  },
+  { 
+    name: "Emily Rodriguez", 
+    position: "Event Organizer", 
+    description: "Creative mind behind our engaging workshops and networking events.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/emily-rodriguez-Wd9Ue6Zy9Ij5Iy1Hs9HyRWkZkj8NX.jpg"
+  },
+  { 
+    name: "David Kim", 
+    position: "AI Research Lead", 
+    description: "Exploring the frontiers of AI and machine learning to drive innovation.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/david-kim-Dtpj5Iy1Hs9HyRWkZkj8NXL0Kd9X3f.jpg"
+  },
+  { 
+    name: "Aisha Patel", 
+    position: "Outreach Coordinator", 
+    description: "Bridging the gap between our community and industry partners.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aisha-patel-hGhrOWQIbA0ISoMpzrO5Wd9Ue6Zy9I.jpg"
+  },
+  { 
+    name: "Carlos Mendoza", 
+    position: "Web Development Lead", 
+    description: "Crafting beautiful and functional web experiences for our community.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/carlos-mendoza-j5Iy1Hs9HyRWkZkj8NXL0Kd9X3fhG.jpg"
+  },
+  { 
+    name: "Lila Wong", 
+    position: "UX/UI Designer", 
+    description: "Creating intuitive and visually appealing designs for our projects.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lila-wong-hrOWQIbA0ISoMpzrO5Wd9Ue6Zy9Ij5.jpg"
+  },
+  { 
+    name: "Alex Novak", 
+    position: "Cybersecurity Specialist", 
+    description: "Ensuring the safety and integrity of our digital infrastructure.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alex-novak-Iy1Hs9HyRWkZkj8NXL0Kd9X3fhGhrO.jpg"
+  },
 ]
 
 export default function Team() {
@@ -82,8 +122,8 @@ export default function Team() {
                   <div className="mb-4">
                     <div className="w-full h-40 bg-gray-200 rounded-lg overflow-hidden">
                       <Image
-                        src={`/placeholder.svg?height=160&width=256&text=Team+Member+${(i % teamMembers.length) + 1}`}
-                        alt={`Team member ${(i % teamMembers.length) + 1}`}
+                        src={member.image}
+                        alt={`${member.name}, ${member.position}`}
                         width={256}
                         height={160}
                         className="object-cover w-full h-full"
@@ -92,7 +132,7 @@ export default function Team() {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
                   <p className="text-[#4285f4] mb-2">{member.position}</p>
-                  <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p className="text-sm text-gray-500">{member.description}</p>
                 </CardContent>
               </Card>
             </div>

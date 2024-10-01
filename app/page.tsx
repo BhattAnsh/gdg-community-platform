@@ -48,7 +48,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
       <div className="relative flex flex-col min-h-screen bg-white font-sans">
         <div className="bg-[#FBEBE9] text-[#C5221F] py-2 px-4 text-center relative z-10">
           <p className="text-sm font-medium">
-            New event announced! Join us for the Summer Fest on June 15th.{" "}
+            New event announced! Join us for the Info Session on October 2nd.{" "}
             <Link href="#" className="underline hover:text-[#ea4335]">
               Learn more
             </Link>
@@ -149,17 +149,20 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
           </div>
         </header>
         <main className="flex-1">
-          <section className="flex items-start justify-start md:block py-0 md:py-32 bg-[#f8f9fa] h-[100vh]">
-            <div className="container mx-auto px-4 text-start md:text-center">
-              <div className="flex flex-col-reverse md:flex-row items-center">
-                <div className="md:w-1/2 text-center md:text-center mb-8 md:mb-0">
-                  <h1 className="text-4xl md:text-6xl font-medium tracking-tight text-[#202124] mb-6">
-                    Welcome to Our{" "}
-                    <span className="text-[#1a73e8]">College Community</span>
+          <section className="flex items-start justify-start md:block py-0 md:py-32 bg-[#f8f9fa] h-[100vh] pl-[10px] md:pl-[30px]">
+            <div className="container mx-auto px-4 text-start md:text-left">
+              <div className="flex flex-col-reverse md:flex-row items-left">
+                <div className="md:w-1/2 text-left md:text-left mb-8 md:mb-0">
+                  <h1 className="text-xl md:text-6xl font-medium tracking-tight text-[#202124] mb-6">
+                    Welcome to{" "}
+                    <span className="text-[#1a73e8]">GDG On Campus!</span>
                   </h1>
-                  <p className="text-xl md:text-2xl text-[#5f6368] mb-8">
-                    Join us in creating unforgettable memories and building
-                    lasting connections.
+                  <p className="text-xl md:text-l text-[#5f6368] mb-8">
+                  Step into a world where innovation meets collaboration. 
+                  Whether you're here to learn, lead, or create, our vibrant community 
+                  is here to help you thrive. Participate in our technical events, and you 
+                  might even grab some cool goodies—we believe every achievement deserves a 
+                  little celebration. Your journey starts here, join us today!
                   </p>
                   <div className="space-x-4">
                     <Button
@@ -168,13 +171,9 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
                     >
                       Join Now
                     </Button>
-                    <Button
-                      size="lg"
-                      variant="outline"
-                      className="text-white bg-grey border-none hover:bg-darkGrey hover:border-darkGrey hover:text-white"
-                    >
-                      Learn More
-                    </Button>
+                    <Button size="lg" variant="outline" className="text-[#1a73e8] border-[#dadce0] hover:bg-[#f1f3f4] hover:border-[#d2e3fc]">
+                    Learn More
+                  </Button>
                   </div>
                 </div>
                 <div className="relative z-10 md:w-1/2 h-[fit-content] md:h-[500px]" ref={heroLottieRef}></div>
@@ -185,7 +184,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
           <Gallery />
           <Team />
           <FAQ />
-          <section className="py-20 md:py-32 bg-[#e8f0fe]">
+          <section className="py-20 md:py-32 bg-[#E6F4EA]">
             <div className="container mx-auto px-4">
               <div className="flex flex-col md:flex-row items-center justify-between">
                 <div ref={footerLottieRef} className="mb-8 md:mb-0"></div>
@@ -209,7 +208,7 @@ export default function GoogleInspiredCollegeCommunityLandingPage() {
         </main>
         <footer className="bg-[#202124] py-4">{/* Empty black footer */}</footer>
       </div>
-      <Image src={"./blob.svg"} alt="blob" width={1100} height={1100} className="hidden md:block absolute right-[-8vw] top-[-1vh] w-[60vw]"></Image>
+      <Image src={"./blob.svg"} alt="blob" width={1100} height={1100} className="hidden md:block absolute right-[-8vw] top-[-1vh] w-[60vw] z-0"></Image>
     </>
   );
 }
