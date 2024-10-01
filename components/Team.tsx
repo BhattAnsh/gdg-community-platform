@@ -9,73 +9,73 @@ const teamMembers = [
     name: "Kartikey", 
     position: "Organiser", 
     description: "Ensuring smooth coordination and success of all club activities",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sarah-johnson-RWkZkj8NXDtpL0Kd9X3fhGhrOWQIbA.jpg"
+    image: "/maleAvt.png"
   },
   { 
     name: "Vivek Mishra", 
     position: "Coordinator", 
     description: "Guiding and Supporting the team with academic insights",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/michael-chen-0ISoMpzrO5Wd9Ue6Zy9Ij5Iy1Hs9Hy.jpg"
+    image: "/maleAvt.png"
   },
   { 
     name: "Aarushi", 
     position: "Management Lead", 
     description: "Driving efficient event planning and execution",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/emily-rodriguez-Wd9Ue6Zy9Ij5Iy1Hs9HyRWkZkj8NX.jpg"
+    image: "/aarushi.jpg"
   },
   { 
     name: "Moksha Kohli", 
     position: "Management Co-Lead", 
     description: " I assist in organizing events and community outreach.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/david-kim-Dtpj5Iy1Hs9HyRWkZkj8NXL0Kd9X3f.jpg"
+    image: "/moksh.jpg"
   },
   { 
     name: "Poorvi Parshar", 
     position: "Management Co-Lead", 
     description: " ensure seamless management and team collaboration.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aisha-patel-hGhrOWQIbA0ISoMpzrO5Wd9Ue6Zy9I.jpg"
+    image: "/FemaleAvt.png"
   },
   { 
     name: "Sudipta Sarkar", 
     position: "AI-ML Lead", 
     description: "Leading our community’s AI/ML initiatives with innovative projects.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/carlos-mendoza-j5Iy1Hs9HyRWkZkj8NXL0Kd9X3fhG.jpg"
+    image: "/sudipta.jpg"
   },
   { 
     name: "Nishchay Chaurasia", 
     position: "AI/ML Co-Lead", 
     description: "I support AI/ML development and knowledge-sharing within the team.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lila-wong-hrOWQIbA0ISoMpzrO5Wd9Ue6Zy9Ij5.jpg"
+    image: "/nishchay.jpg"
   },
   { 
     name: "Shreyanshi Singhal", 
     position: "Web Lead", 
     description: "As the Web Lead, I spearhead web development efforts to deliver impactful solutions.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/aisha-patel-hGhrOWQIbA0ISoMpzrO5Wd9Ue6Zy9I.jpg"
+    image: "/shreya.jpg"
   },
   { 
     name: "Ansh Bhatt", 
     position: "Web Co-Lead", 
     description: "I assist in crafting efficient and responsive web projects.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/carlos-mendoza-j5Iy1Hs9HyRWkZkj8NXL0Kd9X3fhG.jpg"
+    image: "/ansh.jpg"
   },
   { 
     name: "Swati Sharma", 
     position: "Android Lead", 
     description: "I drive mobile app development and engage the community in Android initiatives.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alex-novak-Iy1Hs9HyRWkZkj8NXL0Kd9X3fhGhrO.jpg"
+    image: "/swati.jpg"
   },
   { 
     name: "Abhinav Jain", 
     position: "Graphic Design Lead", 
     description: "Creating visually appealing designs for events and promotions.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lila-wong-hrOWQIbA0ISoMpzrO5Wd9Ue6Zy9Ij5.jpg"
+    image: "/abhinav.jpg"
   },
   { 
     name: "Kanika Sharma", 
     position: "Graphic Design Co-Lead", 
     description: "I support in designing captivating visual content for the club.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alex-novak-Iy1Hs9HyRWkZkj8NXL0Kd9X3fhGhrO.jpg"
+    image: "/FemaleAvt.png"
   },
 ]
 
@@ -144,7 +144,7 @@ export default function Team() {
               <Card className="h-full">
                 <CardContent className="p-6">
                   <div className="mb-4">
-                    <div className="w-full h-40 bg-gray-200 rounded-lg overflow-hidden">
+                    <div className="w-full h-60 bg-gray-200 rounded-lg overflow-hidden">
                       <Image
                         src={member.image}
                         alt={`${member.name}, ${member.position}`}
