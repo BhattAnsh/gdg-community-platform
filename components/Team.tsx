@@ -9,13 +9,13 @@ const teamMembers = [
     name: "Kartikey", 
     position: "Organiser", 
     description: "Ensuring smooth coordination and success of all club activities",
-    image: "/maleAvt.png"
+    image: "/kartikeya.jpg"
   },
   { 
     name: "Vivek Mishra", 
     position: "Coordinator", 
     description: "Guiding and Supporting the team with academic insights",
-    image: "/maleAvt.png"
+    image: "/vivek_misra.jpg"
   },
   { 
     name: "Aarushi", 
@@ -33,7 +33,7 @@ const teamMembers = [
     name: "Poorvi Parshar", 
     position: "Management Co-Lead", 
     description: " ensure seamless management and team collaboration.",
-    image: "/FemaleAvt.png"
+    image: "/poorvi.jpg"
   },
   { 
     name: "Sudipta Sarkar", 
@@ -75,7 +75,7 @@ const teamMembers = [
     name: "Kanika Sharma", 
     position: "Graphic Design Co-Lead", 
     description: "I support in designing captivating visual content for the club.",
-    image: "/FemaleAvt.png"
+    image: "/kanika.jpg"
   },
 ]
 

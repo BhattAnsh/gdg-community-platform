@@ -11,7 +11,7 @@ function Gallery() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 h-auto w-full">
           <div className="col-span-1 sm:col-span-2 bg-[#8ab4f8] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=600&text=Gallery+Image+1"
+              src="/stage.jpg"
               alt="Gallery image 1"
               width={600}
               height={300}
@@ -20,7 +20,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#81c995] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=300&text=Gallery+Image+2"
+              src="/devfest_sumitjha.jpg"
               alt="Gallery image 2"
               width={300}
               height={300}
@@ -29,7 +29,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#fde293] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=300&text=Gallery+Image+3"
+              src="/more.jpg"
               alt="Gallery image 3"
               width={300}
               height={300}
@@ -38,7 +38,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#f28b82] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=300&text=Gallery+Image+4"
+              src="/meet2.jpg"
               alt="Gallery image 4"
               width={300}
               height={300}
@@ -47,7 +47,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 sm:col-span-2 bg-[#8ab4f8] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=600&text=Gallery+Image+5"
+              src="/meet.jpg"
               alt="Gallery image 5"
               width={600}
               height={300}
@@ -56,7 +56,7 @@ function Gallery() {
           </div>
           <div className="col-span-1 bg-[#81c995] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=300&width=300&text=Gallery+Image+6"
+              src="/less.jpg"
               alt="Gallery image 6"
               width={300}
               height={300}
