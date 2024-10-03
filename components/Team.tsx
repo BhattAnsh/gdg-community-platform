@@ -66,6 +66,12 @@ const teamMembers = [
     image: "/swati.jpg"
   },
   { 
+    name: "Harsh Kumar", 
+    position: "Cloud Lead", 
+    description: "I empower the community to explore the limitless possibilities of cloud computing.",
+    image: "/harsh.jpg"
+  },
+  { 
     name: "Abhinav Jain", 
     position: "Graphic Design Lead", 
     description: "Creating visually appealing designs for events and promotions.",
