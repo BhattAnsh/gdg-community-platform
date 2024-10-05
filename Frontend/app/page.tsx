@@ -1,5 +1,5 @@
 "use client";
-import Home from "@/app/Home/Home";
+import Home from "@/pages/Home";
 
 
 export default function GoogleInspiredCollegeCommunityLandingPage() {
