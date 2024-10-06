@@ -1,18 +1,12 @@
-<div align="center">
-<h1 align="center"> GDG Community Platform </h1>
-
-<img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
+![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)<img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="400" height="300">
+
+# 👇 GDG Community Platform
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-<h1 align="center"> GDG Community Platform </h1>
-
-</div>
-
-## 📌 Project Description
 
 The GDG On Campus Community Platform serves as a hub for students and developers to:
 
@@ -23,7 +17,7 @@ The GDG On Campus Community Platform serves as a hub for students and developers
 
 
 
-## 🌟 Key Features
+## 🦾 Key Features
 
 - **Dynamic Events Section**: Display upcoming and past events with registration links.
 - **Community Gallery**: Showcase moments from various events through a visually rich gallery.
@@ -31,25 +25,11 @@ The GDG On Campus Community Platform serves as a hub for students and developers
 - **Connect Section**: Options for users to join the community and stay updated.
 - **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
 
-## 🛠️ Tech Stack
+**Upcoming Features:**
 
-- **Framework**: Next.js
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
+- **Blog Posting for Members**: Allow members to share posts and articles.
+- **User Account Creation**: Enable members to create accounts and interact more dynamically.
 
-## 📂 Project Structure
-
-```bash
-gdg-on-campus/
-├── public/                 # Public assets
-├── src/                    
-│   ├── components/         # Reusable components
-│   ├── pages/              # Next.js pages structure
-│   ├── styles/             # Tailwind CSS configurations
-│   └── utils/              # Utility functions and hooks
-├── README.md
-└── package.json
-```
 
 ## 🚀 Getting Started
 
