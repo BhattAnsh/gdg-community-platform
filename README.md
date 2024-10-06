@@ -1,4 +1,5 @@
 <div align="center">
+
 ![Banner](https://github.com/user-attachments/assets/6abbd19d-dc18-4706-8b06-ef4eea17bbd7)
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -8,7 +9,7 @@
 <h1 align="center"> GDG Community Platform </h1>
 
 https://github.com/user-attachments/assets/e73bc6af-4369-495f-b052-dc6ff1f1e1d5
-
+</div>
 
 ## 📌 Project Description
 
