@@ -29,8 +29,7 @@
 - **Team Section**: Interactive cards for team members with role descriptions and images.
 - **Connect Section**: Options for users to join the community and stay updated.
 - **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
-
-
+&nbsp;
 ### >> Upcoming Features
 
 - **Blog Posting for Members**: Allow members to share posts and articles.
@@ -69,11 +68,10 @@
    ```
 
 5. Open your browser and go to `http://localhost:3000` to view the site.
-
-
+&nbsp;
 ## 👥 Contributors 
 
 <img src="https://i.ibb.co/RzHCYkz/image.png" align="left"
-     alt="Size Limit logo by Anton Lovchikov" width="40%" height="auto">
+     alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
 <img src="https://i.ibb.co/dWHvWSy/image.png"
-     alt="Size Limit logo by Anton Lovchikov" width="40%" height="auto">
+     alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
