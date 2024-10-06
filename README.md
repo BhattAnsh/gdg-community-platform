@@ -67,10 +67,7 @@
 5. Open your browser and go to `http://localhost:3000` to view the site.
 
 
-## Contributors 👥
+## 👥 Contributors 
 
 - **@swatified**
 - **@BhattAnsh**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/dev-swati/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swatified)
