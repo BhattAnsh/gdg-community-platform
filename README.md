@@ -10,7 +10,7 @@
 <img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="30%" height="auto">
 
-
+&nbsp;
 
 - Engage with the Community
 - Stay up-to-date with Tech News
@@ -30,14 +30,14 @@
 - **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
 
 
-## Upcoming Features
+## 🔥 Upcoming Features
 
 - **Blog Posting for Members**: Allow members to share posts and articles.
 - **User Account Creation**: Enable members to create accounts and interact more dynamically.
 
 &nbsp;
 
-## Getting Started
+## 📌 Getting Started
 
 1. Clone the repository:
 
