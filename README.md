@@ -2,10 +2,8 @@
 <h1 align="center"> GDG Community Platform </h1>
 
 
-https://github.com/user-attachments/assets/419614d0-a323-4396-af6f-a4cfce36a1e4
 
-
-
+https://github.com/user-attachments/assets/2efba92a-b290-4d42-a598-6801fa8f2856
 
 
 
