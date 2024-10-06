@@ -8,14 +8,10 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 
-The **GDG On Campus Community Platform** is a vibrant digital hub designed to empower students and developers by providing a centralized space to:
-
-- **Stay Updated**: Easily discover and register for upcoming events, workshops, and community initiatives.
-- **Engage Seamlessly**: Connect with like-minded peers through an intuitive, interactive interface that encourages collaboration and participation.
-- **Relive the Journey**: Dive into the Community Gallery to explore past events, accomplishments, and contributions by team members and participants.
-- **Meet the Team**: Get to know the passionate individuals driving GDG On Campus, learn about their roles, and gain insights into their contributions to the community.
-
-Our platform is more than a website—it’s a gateway to meaningful connections and opportunities!
+## Engage with the Community
+## Discover Events
+## Explore Past Initiatives
+## Meet the Team
 
 ## 🦾 Key Features
 
