@@ -1,21 +1,21 @@
-![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)<img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="400" height="300">
-
 # 👇 GDG Community Platform
+
+<img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="400" height="300">
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 
-The GDG On Campus Community Platform serves as a hub for students and developers to:
+The **GDG On Campus Community Platform** is a vibrant digital hub designed to empower students and developers by providing a centralized space to:
 
-- Discover upcoming events and initiatives.
-- Connect with the community through an intuitive and interactive interface.
-- Explore past events and team contributions via the Community Gallery.
-- Learn about the core team behind GDG On Campus.
+- **Stay Updated**: Easily discover and register for upcoming events, workshops, and community initiatives.
+- **Engage Seamlessly**: Connect with like-minded peers through an intuitive, interactive interface that encourages collaboration and participation.
+- **Relive the Journey**: Dive into the Community Gallery to explore past events, accomplishments, and contributions by team members and participants.
+- **Meet the Team**: Get to know the passionate individuals driving GDG On Campus, learn about their roles, and gain insights into their contributions to the community.
 
-
+Our platform is more than a website—it’s a gateway to meaningful connections and opportunities!
 
 ## 🦾 Key Features
 
