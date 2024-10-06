@@ -10,7 +10,7 @@
 
 ---
 
-<img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
+<img src="https://i.ibb.co/0sv8Yh2/image.png" align="left"
      alt="Size Limit logo by Anton Lovchikov" width="30%" height="auto">
 
 &nbsp;
@@ -75,5 +75,7 @@
 
 ## 👥 Contributors 
 
-- **@swatified**
-- **@BhattAnsh**
+<img src="https://i.ibb.co/RzHCYkz/image.png" align="left"
+     alt="Size Limit logo by Anton Lovchikov" width="40%" height="auto">
+<img src="https://i.ibb.co/dWHvWSy/image.png"
+     alt="Size Limit logo by Anton Lovchikov" width="40%" height="auto">
