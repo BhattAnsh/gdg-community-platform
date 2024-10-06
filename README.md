@@ -1,10 +1,7 @@
 <div align="center">
 <h1 align="center"> GDG Community Platform </h1>
 
-
-
-https://github.com/user-attachments/assets/2efba92a-b290-4d42-a598-6801fa8f2856
-
+![Screenshot_2024-09-27_192330-removebg-preview](https://github.com/user-attachments/assets/dc538b21-0f71-44fe-8342-9e8b4d1afebd)
 
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
