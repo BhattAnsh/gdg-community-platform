@@ -73,8 +73,10 @@
 
 ## 👥 Contributors 
 
-<div align="center" style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://i.ibb.co/Hrg2YTY/image.png" alt="Swati Sharma - Android Lead" width="45%" height="auto">
-  <img src="https://i.ibb.co/dWHvWSy/image.png" alt="Ansh Bhatt - Web Dev Co-Lead" width="45%" height="auto">
-</div>
+<img src="https://i.ibb.co/Hrg2YTY/image.png" align="left"
+     alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
+&nbsp;
+<img src="https://i.ibb.co/dWHvWSy/image.png"
+     alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
 
+&nbsp;
