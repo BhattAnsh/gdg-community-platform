@@ -68,10 +68,15 @@
    ```
 
 5. Open your browser and go to `http://localhost:3000` to view the site.
+
 &nbsp;
+
 ## 👥 Contributors 
 
 <img src="https://i.ibb.co/RzHCYkz/image.png" align="left"
      alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
+&nbsp;
 <img src="https://i.ibb.co/dWHvWSy/image.png"
      alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
+
+&nbsp;
