@@ -1,7 +1,7 @@
 # 👇 GDG Community Platform
 
 <img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="400" height="300">
+     alt="Size Limit logo by Anton Lovchikov" width="3500" height="200">
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -15,8 +15,6 @@
 - Explore Past Initiatives
 - Meet the Team
 
-![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)
-
 ## Key Features
 
 - **Dynamic Events Section**: Display upcoming and past events with registration links.
@@ -24,6 +22,8 @@
 - **Team Section**: Interactive cards for team members with role descriptions and images.
 - **Connect Section**: Options for users to join the community and stay updated.
 - **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
+
+![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)
 
 ## Upcoming Features
 
