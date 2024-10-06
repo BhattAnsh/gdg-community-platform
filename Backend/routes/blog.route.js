@@ -1,9 +1,8 @@
 import { Router} from "express";
-
+import { auth } from "../middlewares/Authentication/auth.js";
+import { createBlog, getBlog, getAllBlogs, updateBlog, deleteBlog } from "../controllers/blog.controller.js";
 const blogRouter = Router();
 
-blogRouter.get('/', (req,res) =>{
-    res.send("This is a blog route");
-});
+blogRouter.post("/create",auth, createBlog);
 
 export default blogRouter;
