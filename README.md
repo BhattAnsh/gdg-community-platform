@@ -10,9 +10,6 @@
 <img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="30%" height="auto">
 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 
 - Engage with the Community
@@ -22,7 +19,7 @@
 - Explore Past Initiatives
 - Meet the Team
 
-
+&nbsp;
 
 ## 🎙 Key Features
 
@@ -38,8 +35,9 @@
 - **Blog Posting for Members**: Allow members to share posts and articles.
 - **User Account Creation**: Enable members to create accounts and interact more dynamically.
 
+&nbsp;
 
-# GETTING STARTED
+## Getting Started
 
 1. Clone the repository:
 
