@@ -1,6 +1,13 @@
 <div align="center">
+<h1 align="center"> GDG Community Platform </h1>
 
-![Banner](https://github.com/user-attachments/assets/6abbd19d-dc18-4706-8b06-ef4eea17bbd7)
+
+https://github.com/user-attachments/assets/419614d0-a323-4396-af6f-a4cfce36a1e4
+
+
+
+
+
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
