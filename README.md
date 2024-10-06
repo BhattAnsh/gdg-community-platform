@@ -1,9 +1,8 @@
+![Banner](https://github.com/user-attachments/assets/6abbd19d-dc18-4706-8b06-ef4eea17bbd7)
 
-# GDG On Campus Community Platform
-
-![GDG On Campus Banner](./path-to-your-screenshot.png)
-
-A community-driven platform for students to connect with GDG On Campus DGI. This website aims to provide a customizable and visually appealing space for students to explore events, meet the team, and engage with the community. Built using **Next.js**, **TypeScript**, and **Tailwind CSS**, this platform enhances the user experience compared to the standard community site offered by Google.
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## 📌 Project Description
 
@@ -14,10 +13,7 @@ The GDG On Campus Community Platform serves as a hub for students and developers
 - Explore past events and team contributions via the Community Gallery.
 - Learn about the core team behind GDG On Campus.
 
-**Upcoming Features:**
 
-- **Blog Posting for Members**: Allow members to share posts and articles.
-- **User Account Creation**: Enable members to create accounts and interact more dynamically.
 
 ## 🌟 Key Features
 
