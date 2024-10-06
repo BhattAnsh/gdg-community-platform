@@ -1,5 +1,8 @@
 # 👇 GDG Community Platform
 
+![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)
+---
+
 <img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="30%" height="auto">
 
@@ -25,8 +28,6 @@
 - **Connect Section**: Options for users to join the community and stay updated.
 - **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
 
----
-![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)
 
 ## Upcoming Features
 
