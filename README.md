@@ -73,7 +73,7 @@
 
 ## 👥 Contributors 
 
-<img src="https://i.ibb.co/RzHCYkz/image.png" align="left"
+<img src="https://i.ibb.co/RzHCYkz/image.png"
      alt="Size Limit logo by Anton Lovchikov" width="47%" height="auto">
 &nbsp;
 <img src="https://i.ibb.co/dWHvWSy/image.png"
