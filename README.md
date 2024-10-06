@@ -73,10 +73,14 @@
 
 ## 👥 Contributors 
 
-<img src="https://i.ibb.co/Hrg2YTY/image.png" align="left"
+<a href="https://github.com/BhattAnsh" target="_blank">
+<img src="https://i.ibb.co/dWHvWSy/image.png" align="left"
      alt="Size Limit logo by Anton Lovchikov" width="48%" height="auto">
+</a>
 &nbsp;
-<img src="https://i.ibb.co/dWHvWSy/image.png"
+<a href="https://github.com/swatified" target="_blank">
+<img src="https://i.ibb.co/Hrg2YTY/image.png"
      alt="Size Limit logo by Anton Lovchikov" width="48%" height="auto">
+</a>
 
 &nbsp;
