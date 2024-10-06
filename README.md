@@ -74,7 +74,7 @@
 ## 👥 Contributors 
 
 <div align="center" style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://i.ibb.co/RzHCYkz/image.png" alt="Swati Sharma - Android Lead" width="45%" height="auto">
+  <img src="https://i.ibb.co/Hrg2YTY/image.png" alt="Swati Sharma - Android Lead" width="45%" height="auto">
   <img src="https://i.ibb.co/dWHvWSy/image.png" alt="Ansh Bhatt - Web Dev Co-Lead" width="45%" height="auto">
 </div>
 
