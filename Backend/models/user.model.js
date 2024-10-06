@@ -51,7 +51,7 @@ const userSchema = mongoose.Schema({
         default:{},
         required:false,
     },
-    collection:{
+    savedCollection:{
         type:Array,
         default:[],
         required:false,
