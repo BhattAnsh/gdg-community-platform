@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center"> GDG Community Platform </h1>
 
-<img src="(https://ibb.co/SfGWVRy)" align="right"
+<img src="https://ibb.co/SfGWVRy" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
