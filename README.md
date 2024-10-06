@@ -24,7 +24,7 @@
 
 
 
-## Key Features
+## 🎙 Key Features
 
 - **Dynamic Events Section**: Display upcoming and past events with registration links.
 - **Community Gallery**: Showcase moments from various events through a visually rich gallery.
@@ -39,7 +39,7 @@
 - **User Account Creation**: Enable members to create accounts and interact more dynamically.
 
 
-## Getting Started
+# GETTING STARTED
 
 1. Clone the repository:
 
