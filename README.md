@@ -5,6 +5,9 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ![image](https://github.com/user-attachments/assets/60f87791-7a91-4e6f-a9fa-c9784912b87c)
+
+&nbsp;
+
 ---
 
 <img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
@@ -30,7 +33,7 @@
 - **Responsive Design**: Optimized for both desktop and mobile devices using Tailwind CSS.
 
 
-## 🔥 Upcoming Features
+### >> Upcoming Features
 
 - **Blog Posting for Members**: Allow members to share posts and articles.
 - **User Account Creation**: Enable members to create accounts and interact more dynamically.
