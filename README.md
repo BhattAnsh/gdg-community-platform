@@ -4,7 +4,7 @@
 ---
 
 <img src="https://i.ibb.co/0sv8Yh2/image.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="60%" height="auto">
+     alt="Size Limit logo by Anton Lovchikov" width="40%" height="auto">
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
