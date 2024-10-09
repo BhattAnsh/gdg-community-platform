@@ -1,8 +1,8 @@
-import User from '../models/user.model.js';
-export const auth = async (req, res, next) => {
+import { User } from "../../models/user.model.js";
+export const authorization = async (req, res, next) => {
     try {
         const userId = req.params.userId;
-        const blogId = req.params.quizId;
+        const blogId = req.params.blogId;
         const user = await User.findById(userId);
         const blog = user.quizzes.id(blogId);
         if(blog.createdBy != userId){
