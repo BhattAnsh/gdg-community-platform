@@ -53,11 +53,12 @@ export const getAllBlogs = async (req, res) => {
 }
 
 export const updateBlog = async (req, res) => {
-    const {id} = req.params;
+    //the problem remains here is you have to create a logic by which first the blog data will be transferred to the ui and then it will place the data to the api according to the needs till then just work on the basic controller where you have to send all the data.
+    const {blogId} = req.params;
     const {heading, discription, content} = req.body;
     await blog.findOne({_id:id}).then((blog) => {
         if(blog){
-            blog.heading = heading;
+            blog.heading = heading
             blog.discription = discription;
             blog.content = content;
             blog.save().then(() => {
@@ -79,7 +80,7 @@ export const updateBlog = async (req, res) => {
 }
 
 export const deleteBlog = async (req, res) => {
-    const {id} = req.params;
+    const {blogId} = req.params;
     await blog.findOneAndDelete({_id:id}).then((blog) => {
         if(blog){
             res.status(200).json({
