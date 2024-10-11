@@ -5,5 +5,5 @@ import { createBlog, getBlog, getAllBlogs, updateBlog, deleteBlog } from "../con
 const blogRouter = Router();
 
 blogRouter.post("/create",auth, createBlog);
-blogRouter.post("/blogEdit", auth, authorization, updateBlog );
+blogRouter.post("/edit", auth, authorization, updateBlog );
 export default blogRouter;

@@ -3,13 +3,10 @@ import { User } from "../models/user.model.js";
 
 export const createBlog = async (req, res) => {
     let {heading, discription, content} = req.body;
-    console.log(content);
     let createdBy = (req.query.userId).toString();
-    console.log(createdBy);
     let newBlog = new blog({heading, discription, content, createdBy});
     await newBlog.save().then( async () => {
         let user = await User.findById(createdBy);
-        console.log(user);
         user.blogs.push(newBlog._id);
         user.save().then(() => {
             res.status(201).json({
@@ -54,9 +51,11 @@ export const getAllBlogs = async (req, res) => {
 
 export const updateBlog = async (req, res) => {
     //the problem remains here is you have to create a logic by which first the blog data will be transferred to the ui and then it will place the data to the api according to the needs till then just work on the basic controller where you have to send all the data.
-    const {blogId} = req.params;
+    const {blogId} = req.query.blogId;
+    console.log(req.query.blogId);
+    console.log(blogId);
     const {heading, discription, content} = req.body;
-    await blog.findOne({_id:id}).then((blog) => {
+    await blog.findOne({_id:blogId}).then((blog) => {
         if(blog){
             blog.heading = heading
             blog.discription = discription;
