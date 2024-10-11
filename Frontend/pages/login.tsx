@@ -1,10 +1,10 @@
 'use client'
-
+// import '../app/globals.css'
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
-export default function Login () {
+export default function Login() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
