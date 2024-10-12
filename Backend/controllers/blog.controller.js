@@ -1,6 +1,7 @@
 import {blog, comment} from "../models/blog.model.js";
 import { User } from "../models/user.model.js";
 
+//this will create blog
 export const createBlog = async (req, res) => {
     let {heading, discription, content} = req.body;
     let createdBy = (req.query.userId).toString();
@@ -19,9 +20,10 @@ export const createBlog = async (req, res) => {
     });
 }
 
+//this will get the details of the blog when clicked on the blog card
 export const getBlog = async (req, res) => {
-    const {id} = req.params;
-    await blog.findOne({_id:id}).then((blog) => {
+    const blogId = req.query.blogId;
+    await blog.findOne({_id:blogId}).then((blog) => {
         if(blog){
             res.status(200).json({
                 type: "success",
@@ -38,6 +40,7 @@ export const getBlog = async (req, res) => {
     });
 }
 
+//this function will get all the blogs from database and send it to the frontend
 export const getAllBlogs = async (req, res) => {    
     await blog.find().then((blogs) => {
         res.status(200).json({
@@ -49,11 +52,10 @@ export const getAllBlogs = async (req, res) => {
     });
 }
 
+//this will update the blog
 export const updateBlog = async (req, res) => {
     //the problem remains here is you have to create a logic by which first the blog data will be transferred to the ui and then it will place the data to the api according to the needs till then just work on the basic controller where you have to send all the data.
-    const {blogId} = req.query.blogId;
-    console.log(req.query.blogId);
-    console.log(blogId);
+    const blogId = req.query.blogId;
     const {heading, discription, content} = req.body;
     await blog.findOne({_id:blogId}).then((blog) => {
         if(blog){
@@ -78,9 +80,10 @@ export const updateBlog = async (req, res) => {
     });
 }
 
+//this will delete the blog
 export const deleteBlog = async (req, res) => {
-    const {blogId} = req.params;
-    await blog.findOneAndDelete({_id:id}).then((blog) => {
+    const blogId = req.query.blogId;
+    await blog.findOneAndDelete({_id:blogId}).then((blog) => {
         if(blog){
             res.status(200).json({
                 type: "success",

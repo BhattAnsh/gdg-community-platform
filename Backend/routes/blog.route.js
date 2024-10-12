@@ -6,4 +6,7 @@ const blogRouter = Router();
 
 blogRouter.post("/create",auth, createBlog);
 blogRouter.post("/edit", auth, authorization, updateBlog );
+blogRouter.delete("/del", auth, authorization, deleteBlog);
+blogRouter.get("/getAll", getAllBlogs);
+blogRouter.get("/get", getBlog);
 export default blogRouter;
