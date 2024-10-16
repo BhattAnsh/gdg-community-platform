@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
+"use client"
+// import type { Metadata } from "next";
 import localFont from "next/font/local";
 import './globals.css';
 import React from "react";
+import { RecoilRoot } from "recoil";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,10 +16,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "GDG Community Platform",
-  description: "Google Developer Group Community Platform",
-};
 
 export default function RootLayout({
   children,
@@ -25,12 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
-      >
-        {children}
-      </body>
-    </html>
+    <RecoilRoot>
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+        >
+          {children}
+        </body>
+      </html>
+    </RecoilRoot>
   );
 }

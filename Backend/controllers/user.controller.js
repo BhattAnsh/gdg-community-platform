@@ -55,7 +55,8 @@ export const signIn = async (req, res) => {
       username: username,
     });
     if (userExists) {
-        let passwordMatch = bcrypt.compare(password, userExists.password);
+        let passwordMatch = await bcrypt.compare(password, userExists.password);
+        console.log(passwordMatch)
       if (passwordMatch) {
         const userId = userExists._id.toString();
         const token = await generateToken(userId);
@@ -68,11 +69,13 @@ export const signIn = async (req, res) => {
         });
         return;
       }
-      res.status(403).json({
-        type: "error",
-        message: "incorrect password",
-      });
-      return;
+      else{
+        res.status(403).json({
+          type: "error",
+          message: "incorrect password",
+        });
+        return;
+      }
     }
     res.status(404).json({
       type: "error",
