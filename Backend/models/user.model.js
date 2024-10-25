@@ -24,8 +24,9 @@ const infoSchema = mongoose.Schema({
         default:{}
     },
     pfp:{
-        data: Buffer,
-        contentType: String,
+        type:String,
+        required:false,
+        default:"",
     }
 })
 

@@ -1,5 +1,6 @@
 import { Router } from "express";
-import {signIn, signUp}  from "../controllers/user.controller.js";
+import {signIn, signUp, addUserInfo, updateUserInfo, getUserInfo}  from "../controllers/user.controller.js";
+import { auth } from "../middlewares/Authentication/auth.js";
 const userRouter = Router();
 
 userRouter.get('/', (req, res) => {
@@ -7,6 +8,7 @@ userRouter.get('/', (req, res) => {
 });
 userRouter.post('/signUp', signUp);
 userRouter.post('/signIn', signIn);
+userRouter.post('/addDetails', auth, addUserInfo);
 
 
 

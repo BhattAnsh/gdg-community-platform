@@ -3,8 +3,9 @@ import bcrypt from 'bcrypt'
 
 import { generateToken } from "../config/genrateToken.js";
 
+
+//this will create user
 export const signUp = async (req, res) => {
-  console.log(req.body);
   const { username, email, password } = req.body;
   const saltRounds = 10;
   const salt = await bcrypt.genSalt(saltRounds);
@@ -47,6 +48,8 @@ export const signUp = async (req, res) => {
     return;
   });
 };
+
+//this will login user
 export const signIn = async (req, res) => {
   const { username, password } = req.body;
 
@@ -87,7 +90,124 @@ export const signIn = async (req, res) => {
       type: "error",
       message: "Internal Server error",
     });
-    console.log(error);
     return;
   }
 };
+
+//this will get user information
+export const getUserInfo = async (req, res) => {
+  const { userId } = req.query;
+  try {
+    let user =  await User.findById(userId, { password: 0 });
+    if (user) {
+      res.status(200).json({
+        type: "success",
+        message: "User found",
+        user: user,
+      });
+      return;
+    }
+    res.status(404).json({
+      type: "error",
+      message: "User not found",
+    });
+    return;
+  }
+  catch (error) {
+    res.status(500).json({
+      type: "error",
+      message: "Internal Server error",
+    });
+    return;
+  }
+}
+
+//this will add user information
+export const addUserInfo = async (req, res) => {
+  const userId = req.query.userId
+  const { name, branch, year, profession, links } = req.body;
+  try {
+    let user = await User.findById(userId);
+    if (user) {
+      user.information = {name, branch, year, profession, links};
+      await user.save();
+      res.status(200).json({
+        type: "success",
+        message: "User information added",
+      });
+      return;
+    }
+    res.status(404).json({
+      type: "error",
+      message: "User not found",
+    });
+    return;
+  }catch (error) {
+    console.log(error);
+    res.status(500).json({
+      type: "error",
+      message: "Internal Server error",
+    });
+    return;
+  }
+}
+
+//this will update user information
+export const updateUserInfo = async (req, res) => {
+  const userId = req.query.userId
+  const { name, branch, year, profession, links } = req.body;
+  try {
+    let user = await User.findById(userId);
+    if (user) {
+      user.information = {name, branch, year, profession, links};
+      await user.save();
+      res.status(200).json({
+        type: "success",
+        message: "User information updated",
+      });
+      return;
+    }
+    res.status(404).json({
+      type: "error",
+      message: "User not found",
+    }); 
+    return;
+  }
+  catch (error) {
+    res.status(500).json({
+      type: "error",
+      message: "Internal Server error",
+    });
+    return;
+  }
+}
+
+
+//this will delete user
+export const deleteUser = async (req, res) => {
+  const userId = req.query.userId;
+  try {
+    let user = await User.findById(userId);
+    if (user) {
+      await user.deleteOne();
+      res.status(200).json({
+        type: "success",
+        message: "User deleted",
+      });
+      return;
+    } 
+    res.status(404).json({
+      type: "error",
+      message: "User not found",
+    });
+    return;
+  }
+  catch (error) {
+    res.status(500).json({
+      type: "error",
+      message: "Internal Server error",
+    });
+    return;
+  }
+}
+

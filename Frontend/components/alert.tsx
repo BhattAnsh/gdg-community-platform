@@ -34,10 +34,9 @@ interface Item {
   name: string;
   icon: ForwardRefExoticComponent<SVGProps<SVGSVGElement>>;
   color: string;
-  time: string;
 }
 
-const Noti: FC<Item> = ({ name, icon: Icon, color, time }) => {
+const Noti: FC<Item> = ({ name, icon: Icon, color}) => {
     const[alertVisible, setAlertVisible] = useRecoilState(Visibility)
 
   if (!alertVisible) return null; // Hide the alert if not visible
@@ -65,7 +64,6 @@ const Noti: FC<Item> = ({ name, icon: Icon, color, time }) => {
           <figcaption className="flex flex-row items-center whitespace-pre text-lg font-medium dark:text-white">
             <span className="text-sm sm:text-lg">{name}</span>
             <span className="mx-1">·</span>
-            <span className="text-sm font-normal text-gray-500">{time}</span>
           </figcaption>
         </div>
       </div>
@@ -98,13 +96,11 @@ export function Alert({ className}: { className?: string}) {
     name: string;
     icon: ForwardRefExoticComponent<SVGProps<SVGSVGElement>>;
     color: string;
-    time: string;
   }
 
   const notifications: Item[] = [
     {
       name: message,
-      time: "15m ago",
       icon: icon,
       color: color,
     },

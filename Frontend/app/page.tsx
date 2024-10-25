@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative flex flex-col min-h-screen bg-white font-sans">
+      <div className="relative flex flex-col min-h-screen bg-[#DFE6E7] font-sans">
         <Navbar/>
         <main className="flex-1">
           <Hero/>

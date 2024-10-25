@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import "../globals.css";
 import { Alert } from "@/components/alert";
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 import { useRecoilState, useSetRecoilState } from "recoil";
 import { Visibility, Success, Message } from "@/components/alert";
 
@@ -21,37 +21,55 @@ export default function Login() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    try {
-      const res = await axios.post("http://localhost:5000/api/v1/user/signIn", {
-        username,
-        password,
-      }).catch(function (error){
-        console.log(error.response);
-        console.log("this from axios");
-        setSuccess(false);
-          if (error.status == 403){
-            setMessage("Wrong Password");
-            setShowAlert(true);
-          } else if (error.status === 404) {
-            setMessage("Username not found");
-          }          
-          setShowAlert(true);
+      try {
+        const res = await axios.post("http://localhost:5000/api/v1/user/signIn", {
+          username,
+          password,
         });
-        setSuccess(true);
-        setMessage("Successfully Logined");
-        console.log(res)
-        const response = res as AxiosResponse<any, any>;
-        localStorage.setItem("token", response.data.token);
-        // router.push("/dashboard"); // Redirect after successful login
-    } catch (err) {
-      if (axios.isAxiosError(err)) {
-      } else {
-        console.error("Unexpected error:", err);
-      }
-      setSuccess(false);
-      setMessage("Something went right");
-      setShowAlert(true);
-    }
+    
+        console.log("Response:", res); // Debug log
+    
+        // Check the status code manually
+        if (res.status === 200) {
+          setSuccess(true);
+          setMessage("Successfully Logged In");
+          localStorage.setItem("token", res.data.token);
+          router.push("/"); // Redirect to dashboard
+        } else if (res.status === 403) {
+          setSuccess(false);
+          setMessage("Wrong Password");
+          setShowAlert(true);
+        } else if (res.status === 404) {
+          setSuccess(false);
+          setMessage("Username not found");
+          setShowAlert(true);
+        } else {
+          setSuccess(false);
+          setMessage("Unexpected response from the server");
+          setShowAlert(true);
+        }
+      } catch (err) {
+        console.error("Error during login request:", err); // Debug log
+    
+        // Handle specific Axios errors
+        if (axios.isAxiosError(err)) {
+          const status = err.response?.status;
+          console.log("Axios error status:", status); // Debug log
+    
+          if (status === 403) {
+            setMessage("Wrong Password");
+          } else if (status === 404) {
+            setMessage("Username not found");
+          } else {
+            setMessage(err.response?.data?.message || "Request failed");
+          }
+        } else {
+          setMessage("Unexpected error occurred");
+        }
+    
+        setSuccess(false);
+        setShowAlert(true);
+      }    
   };
 
   return (
@@ -59,7 +77,7 @@ export default function Login() {
       {showAlert && (
         <Alert/>
       )}
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="min-h-screen flex items-center justify-center bg-[#DFE6E7]">
         <div className="bg-white p-8 rounded-lg shadow-md flex flex-row w-[80vw] justify-between h-[60vh] p-20 items-center">
           <div>
             <h1 className="text-2xl font-bold mb-6 text-center text-black">
