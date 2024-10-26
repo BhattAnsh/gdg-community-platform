@@ -14,7 +14,7 @@ const page = () => {
         .format('auto') // Optimize delivery by resizing and applying auto-format and auto-quality
         .quality('auto')
         .resize(auto().gravity(autoGravity()).width(500).height(500)); // Transform the image: auto-crop to square aspect_ratio
-
+          //writing it for test purpose
   return (<AdvancedImage cldImg={img}/>);
 };
 
